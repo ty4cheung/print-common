@@ -46,7 +46,7 @@ public interface CommonDao
 
 	/**
 	 * <pre>
-	 * 根据实体类型和主键删除实体对象
+	 * 根据实体类型和主键삭제实体对象
 	 * </pre>
 	 * @param <T> 实体类型
 	 * @param type 实体类型

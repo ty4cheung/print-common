@@ -49,7 +49,7 @@ public interface PersistProvider
 
 	/**
 	 * <pre>
-	 * 删除持久化数据集合
+	 * 삭제持久化数据集合
 	 * </pre>
 	 * @param entitys 实体对象集合
 	 * @throws DataOperationException 数据库处理异常
@@ -58,7 +58,7 @@ public interface PersistProvider
 
 	/**
 	 * <pre>
-	 * 删除持久化数据
+	 * 삭제持久化数据
 	 * </pre>
 	 * @param entity 实体对象
 	 * @throws DataOperationException 数据库处理异常

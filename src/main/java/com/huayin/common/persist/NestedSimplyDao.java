@@ -38,7 +38,7 @@ public interface NestedSimplyDao<T>
 {
 	/**
 	 * <pre>
-	 * 删除实体对象
+	 * 삭제实体对象
 	 * </pre>
 	 * @param object 实体对象
 	 */
@@ -47,7 +47,7 @@ public interface NestedSimplyDao<T>
 
 	/**
 	 * <pre>
-	 * 删除实体对象集合
+	 * 삭제实体对象集合
 	 * </pre>
 	 * @param entitys 实体对象集合
 	 */
@@ -56,7 +56,7 @@ public interface NestedSimplyDao<T>
 
 	/**
 	 * <pre>
-	 * 通过主键集合删除实体
+	 * 通过主键集合삭제实体
 	 * </pre>
 	 * @param keys 主键集合
 	 */

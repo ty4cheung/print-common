@@ -495,7 +495,7 @@ public class DynamicQuery
 	 */
 	/**
 	 * <pre>
-	 * 删除条件
+	 * 삭제条件
 	 * </pre>
 	 * @param expression
 	 */

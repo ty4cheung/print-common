@@ -80,7 +80,7 @@ public class SQLUtil
 	public static final int ENTITY_COUNT = 4;
 
 	/**
-	 * 删除
+	 * 삭제
 	 */
 	public static final int ENTITY_DELETE = 3;
 

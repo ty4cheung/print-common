@@ -31,7 +31,7 @@ import javax.persistence.TemporalType;
  */
 @Entity
 @NamedQueries({
-		// 命名查询，根据实体查询与其关联的审计日志记录，注意这里审计日志和被审计实体并没有物理关联（数据库约束），即使实体被删除，仍然可以根据实体id访问审计日志。
+		// 命名查询，根据实体查询与其关联的审计日志记录，注意这里审计日志和被审计实体并没有物理关联（数据库约束），即使实体被삭제，仍然可以根据实体id访问审计日志。
 		@NamedQuery(name = "OperateLog.findByEntity", query = "select h from OperateLog h where entityName = :entityName and entityId = :entityId order by operateTime asc"),
 		@NamedQuery(name = "OperateLog.testSQL", query = "select count(h) from OperateLog h") })
 @ExcludeSuperclassListeners
@@ -70,7 +70,7 @@ public class OperateLog extends AbstractAutoIdEntity
 	private Date operateTime;
 
 	/**
-	 * 操作的类型（枚举型：新建、更新、删除）
+	 * 操作的类型（枚举型：新建、更新、삭제）
 	 */
 	@Enumerated(javax.persistence.EnumType.STRING)
 	@Column(length = 10, nullable = false)
